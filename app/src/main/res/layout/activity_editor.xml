@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".EditorActivity">
+
+    <EditText
+        android:id="@+id/edit_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:inputType="textPersonName"
+        android:hint="Nama Mahasiswa"
+        android:autofillHints=""/>
+
+    <EditText
+        android:id="@+id/edit_nim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:inputType="number"
+        android:hint="NIM"
+        android:autofillHints=""/>
+
+    <EditText
+        android:id="@+id/edit_ipk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:inputType="numberDecimal"
+        android:hint="IPK"
+        android:autofillHints=""/>
+
+    <EditText
+        android:id="@+id/edit_matkul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:inputType="text"
+        android:hint="Mata Kuliah"
+        android:autofillHints=""/>
+    
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:background="@color/design_default_color_primary_dark"
+        android:textColor="@color/white"/>
+
+</LinearLayout>
